@@ -11,6 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-mobile": "url(/src/images/hero-mobile.png)",
+        "hero-desktop": "url(/src/images/hero-desktop.png)",
       },
       fontFamily: {
         mont: ["Montserrat", "system-ui"],

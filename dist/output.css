@@ -561,16 +561,8 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .mt-3 {
@@ -589,26 +581,12 @@ video {
   min-height: 15rem;
 }
 
-.min-h-\[10rem\] {
-  min-height: 10rem;
-}
-
-.min-h-\[5rem\] {
-  min-height: 5rem;
-}
-
 .w-full {
   width: 100%;
 }
 
-.w-max {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.max-w-full {
-  max-width: 100%;
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .flex-row {
@@ -631,12 +609,12 @@ video {
   justify-content: center;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-lg {
@@ -674,24 +652,12 @@ video {
   background-image: url(/src/images/hero-mobile.png);
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
-}
-
-.bg-top {
-  background-position: top;
-}
-
-.bg-bottom {
-  background-position: bottom;
 }
 
 .bg-no-repeat {
@@ -704,16 +670,6 @@ video {
 
 .p-4 {
   padding: 1rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .py-3 {
@@ -788,4 +744,48 @@ video {
 .before\:content-\[url\(\'\/src\/images\/cart\.png\'\)\]::before {
   --tw-content: url('/src/images/cart.png');
   content: var(--tw-content);
+}
+
+@media (min-width: 768px) {
+  .md\:min-w-\[15rem\] {
+    min-width: 15rem;
+  }
+
+  .md\:min-w-\[20rem\] {
+    min-width: 20rem;
+  }
+
+  .md\:min-w-\[17rem\] {
+    min-width: 17rem;
+  }
+
+  .md\:min-w-\[50\%\] {
+    min-width: 50%;
+  }
+
+  .md\:min-w-\[80\%\] {
+    min-width: 80%;
+  }
+
+  .md\:max-w-fit {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+
+  .md\:max-w-lg {
+    max-width: 32rem;
+  }
+
+  .md\:max-w-xl {
+    max-width: 36rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:bg-hero-desktop {
+    background-image: url(/src/images/hero-desktop.png);
+  }
 }
